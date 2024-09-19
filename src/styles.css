@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+body.dark-mode header {
+    background-color: #005fa3;
+}
+
+body.dark-mode button {
+    background-color: #444;
+    color: #fff;
+}
+
+body.dark-mode section {
+    background: #444;
+    color: #f0f0f0;
+}
